@@ -1,0 +1,31 @@
+header {
+    color: rgb(8, 83, 8);
+    background-color: rgb(223, 223, 134);
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.saltamontes-caja {
+    border: 10px solid darkgreen;
+    text-align: center;
+}
+
+.saltamontes-caja, form {
+    margin: 10px 800px;
+}
+
+p {
+    font-size: 20pt;
+    margin: 0pt;
+}
+
+footer {
+    background-color: rgb(223, 223, 134);
+    color: rgb(8, 83, 8);
+    text-align: center;
+    padding: 10px;
+}
