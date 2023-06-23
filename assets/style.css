@@ -9,13 +9,16 @@ img {
     max-height: 200px;
 }
 
-.saltamontes-caja {
+.saltamontes-caja, .abeja-caja  {
     border: 10px solid darkgreen;
-    text-align: center;
 }
 
-.saltamontes-caja, form {
-    margin: 10px 800px;
+.saltamontes-caja, .abeja-caja, form {
+    margin: 10px;
+}
+
+#noventa {
+    font-weight: bold;
 }
 
 p {
