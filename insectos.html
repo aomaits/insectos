@@ -1,46 +1,99 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Insectos: Una Pagina Web</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="./assets/style.css" />
-  </head>
-
-    <!-- Make the boxes max out at a smaller size, see CSS box Styling link (UTA) for reference -->
-    <body>
-        <header>
-        <h1>¡Insectos Increíbles!</h1>
-        </header>  
-        <!-- bracket sections as articles, each box as an article, put the whole section on flexbot and spread space between each box...wrap the fourth box on a new line? the non-insect? -->
-        <article id ="cajasDeInsectos">
-            <section class="saltamontes-caja">
-                <img src="./assets/Saltamontes.jpg" alt="imagen de un saltamontes">
-                <p>Si los humanos pudieran saltar como lo hacen los saltamontes, ¡seríamos capaces de saltar fácilmente la longitud de un campo de fútbol americano!</p>
-            </section>
-            <section class="abeja-caja">
-                <img src="./assets/abeja.jpg" alt="imagen de una abeja">
-                <p>¡Mientras recolecta comida, una abeja puede volar hasta noventa y seis kilómetros en un día!</p>
-            </section>
-        </article>
-        
-
-
-    </body>
+<!-- 
     
-
-    <footer>
-        <p>¿Usted quiere saber más sobre los insectos? ¡Regístrese en nuestra lista de correo electrónico!</p>
-        <form>
-            <label for="email">Email address:</label><br>
-            <input type="text" id="email" name="email"><br>
-        </form>
-    </footer>
     
-    <!-- Insect list - Tick, bee, ant. Non-insect: pillbug
-        
-        Insect facts:
+    Insect facts:
     Ticks can grow from the size of a grain of rice to the size of a marble.
-Ants can lift and carry more than fifty times their own weight.
-While gathering food, a bee may fly up to 60 miles in one day.
--->
+    Ants can lift and carry more than fifty times their own weight.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>¡Insectos Increíbles!</title>
+   <link rel="stylesheet" href="./assets/reset.css" />
+   <link rel="stylesheet" href="assets/style.css" />
+ </head>
+ 
+ <body>
+ 
+ 
+   <header>
+     <h1 class="page-title">
+        ¡Insectos Increíbles!
+     </h1>
+   </header>
+ 
+   <main>
+     <section class="row justify-center">
+       <div class="card-column">
+         <figure class="card insect-card">
+           <h2 class="card-header">La abeja</h2>
+           <div class="card-body">
+             <p>¡Mientras recolecta comida, una abeja puede volar hasta noventa y seis kilómetros en un día!
+             </p>
+             <img src="./assets/abeja.jpg" alt="una abeja">
+           </div>
+           
+         </figure>
+       </div>
+       <div class="card-column">
+         <figure class="card insect-card">
+           <h2 class="card-header">El saltamontes</h2>
+           <div class="card-body">
+             <p>Si los humanos pudieran saltar como lo hacen los saltamontes, ¡seríamos capaces de saltar fácilmente la longitud de un campo de fútbol americano!</p>
+             <img src="./assets/Saltamontes.jpg" alt="un saltamontes">
+           </div>
+         </figure>
+       </div>
+ 
+       <div class="card-column">
+         <figure class="card code-card">
+           <h2 class="card-header"></h2>
+           <div class="card-body">
+             <p></p>
+           </div>
+         </figure>
+       </div>
+       <div class="card-column">
+         <figure class="card code-card">
+           <h2 class="card-header"></h2>
+           <div class="card-body">
+             <p></p>
+           </div>
+         </figure>
+       </div>
+       <div class="card-column">
+         <figure class="card code-card">
+           <h2 class="card-header"></h2>
+           <div class="card-body">
+             <p></p>
+           </div>
+         </figure>
+       </div>
+ 
+       <div class="card-column">
+         <figure class="card code-card">
+           <h2 class="card-header"></h2>
+           <div class="card-body">
+             <p>
+             </p>
+           </div>
+         </figure>
+       </div>
+     </section>
+   </main>
+ 
+   <footer>
+     <h2>¿Quiere aprender más sobre los insectos?</h2>
+     <p>¡Suscríbase a nuestra lista de correo!</p>
+     <form>
+        <label for="email">E-mail address: </label>
+        <input type="text" id="email" name="email">
+     </form>
+   </footer>
+ 
+ </body>
+ 
+ </html>
